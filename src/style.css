@@ -1,5 +1,28 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #0A7D15 ;
+}
+.card{
+width: 400px;
+height: 550px;
+border: 1px black;
+border-radius: 5px;
+margin: 25px auto;
+background: white;
+font-size: 40px;
+position:relative;
+}
+.up{
+top: 20px;
+left: 20px;
+position:absolute;
+}
+.down{
+bottom: 20px;
+right: 20px;
+position: absolute; 
+}
+.number{
+font-size: 150px;
 }
